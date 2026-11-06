@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Divyanshu Yadav – AI/ML Engineer</title>
+<meta name="description" content="AI/ML engineer building generative AI, LLM and real-time intelligent systems. MS Computer Science (AI), USC.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%230b1d3a%22/><text x=%2250%22 y=%2268%22 font-size=%2252%22 text-anchor=%22middle%22 fill=%22%23b8975a%22 font-family=%22serif%22>DY</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b1d3a;--navy2:#102849;--ivory:#f7f3ea;--gold:#b8975a;--gold2:#e3c58a;--wine:#7a1f2b;--ink:#1b2438;--serif:'Cormorant Garamond',Georgia,serif;--sans:'Jost',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+html{-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
+body{overflow-x:clip;background:var(--ivory);color:var(--ink);font:300 18px/1.7 var(--sans)}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+nav{position:fixed;inset:0 0 auto;z-index:10;transition:background .4s,border-color .4s;border-bottom:1px solid transparent}
+nav.solid{background:rgba(11,29,58,.94);backdrop-filter:blur(8px);border-color:rgba(184,151,90,.35)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:68px}
+.mono{font:500 26px var(--serif);color:var(--gold2);text-decoration:none;letter-spacing:.06em}
+nav ul{display:flex;gap:34px;list-style:none;padding:0;font:400 13px var(--sans);letter-spacing:.2em;text-transform:uppercase}
+nav ul a{text-decoration:none;color:var(--ivory);opacity:.8;transition:opacity .2s,color .2s}
+nav ul a:hover{opacity:1;color:var(--gold2)}
+.menu{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer;position:relative}
+.menu i,.menu i::before{position:absolute;left:10px;right:10px;height:1.5px;background:var(--gold2);transition:transform .3s,top .3s}
+.menu i{top:21px}.menu i::before{content:'';left:0;right:0;top:-7px}
+.menu[aria-expanded=true] i{transform:rotate(45deg)}.menu[aria-expanded=true] i::before{top:0;transform:rotate(90deg)}
+/* hero */
+.hero{min-height:100svh;background:radial-gradient(120% 90% at 75% 40%,var(--navy2),var(--navy) 65%);color:var(--ivory);min-height:100vh;display:flex;align-items:center;padding:110px 0 70px;position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;inset:auto 0 0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center}
+.rise{opacity:0;transform:translateY(22px);animation:rise 1.1s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+.d1{animation-delay:.15s}.d2{animation-delay:.4s}.d3{animation-delay:.65s}.d4{animation-delay:.9s}
+.kicker{font:400 13px var(--sans);letter-spacing:.32em;text-transform:uppercase;color:var(--gold2);margin-bottom:26px;display:flex;align-items:center;gap:16px}
+.kicker::before{content:'';width:48px;height:1px;background:var(--gold)}
+h1{font:500 clamp(58px,9vw,118px)/.92 var(--serif);letter-spacing:-.01em}
+h1 em{display:block;font-style:italic;color:var(--gold2)}
+.lead{font-size:20px;max-width:28em;margin-top:30px;color:#d9dcE6;font-weight:300}
+.btns{display:flex;gap:16px;flex-wrap:wrap;margin-top:40px}
+.btn{display:inline-block;padding:15px 34px;font:400 13px var(--sans);letter-spacing:.2em;text-transform:uppercase;text-decoration:none;border:1px solid var(--gold);transition:background .3s,color .3s}
+.btn.fill{background:var(--gold);color:var(--navy)}
+.btn.fill:hover{background:var(--gold2)}.btn.ghost:hover{background:rgba(184,151,90,.15)}
+.portrait{position:relative;justify-self:center;width:min(100%,400px)}
+.portrait::before{content:'';position:absolute;inset:-14px;border:1px solid var(--gold);border-radius:999px 999px 0 0;z-index:0}
+.portrait img{position:relative;z-index:1;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:50% 22%;border-radius:999px 999px 0 0;display:block;filter:contrast(1.04) saturate(1.05)}
+/* sections */
+section{padding:120px 0}
+.light{background:var(--ivory)}.dark{background:var(--navy);color:var(--ivory)}
+.label{font:400 13px var(--sans);letter-spacing:.32em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+h2{font:500 clamp(40px,5.5vw,68px)/1.05 var(--serif);margin-bottom:56px}
+.about{display:grid;grid-template-columns:1.3fr 1fr;gap:80px;align-items:start}
+.about p{max-width:32em;font-size:20px}
+.stats{display:grid;gap:34px}
+.stats div{border-top:1px solid var(--gold);padding-top:14px}
+.stats b{display:block;font:500 48px/1 var(--serif);color:var(--wine)}
+.stats span{font-size:15px;color:#4a5370}
+/* experience */
+.job{border-top:1px solid rgba(184,151,90,.45)}
+.job:last-child{border-bottom:1px solid rgba(184,151,90,.45)}
+.job summary{display:grid;grid-template-columns:200px 1fr 30px;align-items:baseline;gap:20px;padding:30px 0;cursor:pointer;list-style:none}
+.job summary::-webkit-details-marker{display:none}
+.job time{font-size:14px;letter-spacing:.14em;color:var(--gold2);text-transform:uppercase}
+.job h3{font:500 36px/1.1 var(--serif)}
+.job summary::after{content:'+';font:300 32px var(--serif);color:var(--gold2);transition:transform .3s}
+.job[open] summary::after{transform:rotate(45deg)}
+.job ul{padding:0 40px 38px 220px;display:grid;gap:12px;color:#cfd3df;max-width:60em;list-style:'—  '}
+.job li{margin-left:20px}
+/* projects */
+.proj{border-top:1px solid rgba(184,151,90,.5)}
+.proj:last-child{border-bottom:1px solid rgba(184,151,90,.5)}
+.head{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:1fr auto 40px;gap:24px;align-items:center;padding:34px 0;cursor:pointer}
+.head:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+.head h3{font:500 clamp(28px,3.6vw,44px)/1.1 var(--serif);transition:color .3s}
+.head:hover h3{color:var(--gold2)}
+.head .meta{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2)}
+.head i{font:300 36px var(--serif);color:var(--gold2);font-style:normal;transition:transform .4s;text-align:center}
+.proj.open .head i{transform:rotate(45deg)}
+.body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .8s cubic-bezier(.2,.7,.2,1)}
+.proj.open .body{grid-template-rows:1fr}
+.body>div{overflow:hidden;min-height:0}
+.stage{position:relative;margin-bottom:34px;border:1px solid rgba(184,151,90,.5);overflow:hidden;background:var(--navy2) center/cover}
+.stage>canvas{position:absolute;inset:0;width:100%;height:100%}
+.stage::before{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(8,20,40,.92) 0%,rgba(8,20,40,.75) 48%,rgba(8,20,40,.3) 100%)}
+.stage .in{position:relative;z-index:2;display:grid;grid-template-columns:1.1fr 1fr;gap:56px;padding:54px}
+.stage p{max-width:30em;color:#e3e6ee;margin-bottom:16px}
+.tags{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2);margin-top:22px}
+.demo{align-self:center;background:rgba(247,243,234,.07);border:1px solid rgba(227,197,138,.45);backdrop-filter:blur(6px);padding:28px}
+.demo h4{font:400 14px var(--sans);letter-spacing:.08em;color:var(--gold2);margin-bottom:18px}
+.seg{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
+.seg button{font:400 13px var(--sans);letter-spacing:.06em;padding:9px 16px;background:transparent;color:var(--ivory);border:1px solid rgba(227,197,138,.6);cursor:pointer;transition:background .25s,color .25s}
+.seg button[aria-pressed=true]{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+.meter{height:6px;background:rgba(247,243,234,.18)}
+.meter i{display:block;height:100%;width:0;transition:width .9s cubic-bezier(.2,.7,.2,1),background .5s}
+.readout{margin-top:18px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px}
+.readout b{font:500 64px/1 var(--serif);color:var(--ivory)}
+.readout span{font-size:14px;color:#c9cddb;text-align:right;max-width:14em}
+/* publications */
+.pub{display:grid;grid-template-columns:200px 1fr;gap:20px;padding:30px 0;border-top:1px solid rgba(184,151,90,.5)}
+.pub:last-child{border-bottom:1px solid rgba(184,151,90,.5)}
+.pub time{font-size:14px;letter-spacing:.14em;color:var(--gold2);text-transform:uppercase}
+.pub h3{font:500 clamp(26px,3vw,34px)/1.15 var(--serif);margin-bottom:10px}
+.pub p{color:#cfd3df;max-width:44em;margin-bottom:14px}
+.pub a{color:var(--gold2);font-size:13px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--gold);padding:8px 0}
+.pub a:hover{color:var(--ivory)}
+.cw{margin-top:18px;padding-top:14px;border-top:1px solid rgba(184,151,90,.4)}
+.cw b{display:block;font:400 12px var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--gold2);margin-bottom:6px}
+/* widgets */
+.metric+.x{margin-top:24px}
+.x{padding-top:22px;border-top:1px solid rgba(227,197,138,.35)}
+.demo>.x:first-child{border:0;padding:0}
+.x .cap{font-size:13px;color:#c9cddb;margin-top:10px;line-height:1.5}
+.x canvas{display:block;width:100%;background:rgba(8,20,40,.55);border:1px solid rgba(227,197,138,.25)}
+.x #lesion{width:150px;height:110px}
+.xrow{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;align-items:center}
+.pill{font:400 13px var(--sans);letter-spacing:.06em;padding:9px 16px;min-height:40px;background:transparent;color:var(--ivory);border:1px solid rgba(227,197,138,.6);cursor:pointer;transition:background .25s,color .25s}
+.pill:hover{background:rgba(227,197,138,.18)}
+.pill[aria-pressed=true]{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+.quote{font:italic 500 22px/1.35 var(--serif);min-height:4.1em;transition:opacity .25s;color:var(--ivory)}
+.hint{font-size:13px;color:var(--gold2);margin-top:14px;line-height:1.5}
+.job h3.t{font-size:clamp(22px,2.6vw,30px);line-height:1.2}
+.pb{padding:0 40px 34px 220px;max-width:64em;color:#cfd3df}
+.pb p{margin-bottom:14px}
+.pb .res{display:inline-block;border:1px solid var(--gold);color:var(--gold2);padding:4px 14px;font-size:14px;letter-spacing:.06em;margin-bottom:14px}
+.pb a{color:var(--gold2);font-size:13px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid var(--gold);padding:8px 0}
+.pb a:hover{color:var(--ivory)}
+/* skills & edu */
+.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:48px 80px}
+.skills h3{font:500 28px var(--serif);color:var(--wine);margin-bottom:6px;padding-bottom:10px;border-bottom:1px solid var(--gold)}
+.skills p{margin-top:14px;color:#3a435d}
+.edu{display:grid;grid-template-columns:1fr 1fr;gap:80px}
+.edu h3{font:500 34px/1.15 var(--serif);margin-bottom:10px}
+.edu p{color:#cfd3df;font-size:17px}.edu .yr{color:var(--gold2);letter-spacing:.14em;text-transform:uppercase;font-size:13px;margin-bottom:8px}
+.contact{text-align:center}
+.contact a.big{display:inline-block;overflow-wrap:anywhere;font:500 clamp(30px,6vw,76px)/1.1 var(--serif);text-decoration:none;color:var(--navy);border-bottom:1px solid var(--gold);padding-bottom:10px;transition:color .3s}
+.contact a.big:hover{color:var(--wine)}
+.links{display:flex;flex-wrap:wrap;row-gap:18px;gap:18px 40px;justify-content:center;margin-top:44px;font-size:13px;letter-spacing:.24em;text-transform:uppercase}
+.links a{padding:10px 2px;text-decoration:none;color:var(--ink);border-bottom:1px solid transparent}.links a:hover{border-color:var(--gold)}
+footer{background:var(--navy);color:var(--gold2);text-align:center;padding:40px 0;font:400 12px var(--sans);letter-spacing:.3em;text-transform:uppercase}
+footer b{display:block;font:500 34px var(--serif);letter-spacing:.1em;margin-bottom:8px}
+@media(max-width:820px){
+body{font-size:17px}
+nav .wrap{height:62px}.menu{display:block;margin-right:-10px}
+nav ul{position:absolute;top:62px;left:0;right:0;flex-direction:column;gap:0;background:rgba(11,29,58,.98);border-bottom:1px solid rgba(184,151,90,.4);padding:8px 28px 18px;font-size:13px;letter-spacing:.2em;display:none}
+nav ul.open{display:flex}nav li{border-bottom:1px solid rgba(184,151,90,.2)}nav li:last-child{border:0}
+nav ul a{display:block;padding:16px 0;opacity:1}
+nav{padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
+.wrap{padding:0 max(22px,env(safe-area-inset-left))}
+.hero .wrap,.about,.skills,.edu,.stage .in{grid-template-columns:1fr;gap:40px}
+.hero{padding:96px 0 56px;align-items:flex-start}.hero .wrap{gap:44px}
+.portrait{order:-1;width:min(72%,300px);margin:14px auto 0}
+.kicker{font-size:12px;letter-spacing:.26em;margin-bottom:18px}.kicker::before{width:30px}
+.lead{font-size:18px;margin-top:22px}
+.btns{margin-top:30px}.btn{flex:1 1 100%;text-align:center;padding:16px 20px}
+section{padding:72px 0}h2{margin-bottom:36px}.about p{font-size:18px}.stats b{font-size:40px}
+.job summary{grid-template-columns:1fr 30px;padding:24px 0;gap:6px 12px}.job time{grid-column:1/-1}.job h3{font-size:30px}.job ul{padding:0 0 28px}
+.head{grid-template-columns:1fr 40px;padding:26px 0;gap:14px}.head .meta{display:none}.head i{font-size:34px;min-height:44px;line-height:44px}
+.stage::before{background:rgba(8,20,40,.82)}
+.stage .in{padding:28px 20px;gap:28px}.demo{padding:22px 18px}
+.seg button{min-height:44px;flex:1 1 auto}
+.readout{flex-direction:column;align-items:flex-start;gap:6px}.readout b{font-size:54px}.readout span{text-align:left;max-width:none}
+.skills,.edu{gap:36px}.edu h3{font-size:30px}
+.links{gap:6px 28px}.pub{grid-template-columns:1fr;gap:8px}.pb{padding:0 0 28px}.quote{font-size:20px}}
+@media(max-width:380px){h1{font-size:54px}.job h3{font-size:27px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rise{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<nav id="nav"><div class="wrap"><a class="mono" href="#top" aria-label="Top">DY</a>
+<button class="menu" id="menu" aria-label="Menu" aria-expanded="false" aria-controls="navlinks"><i></i></button>
+<ul id="navlinks"><li><a href="#about">About</a></li><li><a href="#work">Experience</a></li><li><a href="#projects">Projects</a></li><li><a href="#publications">Research</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+<div>
+<p class="kicker rise d1">AI / ML Engineer</p>
+<h1 class="rise d2">Divyanshu<em>Yadav</em></h1>
+<p class="lead rise d3">I turn frontier AI into production systems: multi-agent trading engines that run 30% faster, conversational AI on IBM Cloud, and research that breaks AI-text detectors to make them stronger.</p>
+<div class="btns rise d4"><a class="btn fill" href="#projects">View projects</a><a class="btn ghost" href="#contact">Get in touch</a></div>
+</div>
+<div class="portrait rise d3"><img src="photo.jpg" alt="Portrait of Divyanshu Yadav"></div>
+</div></header>
+
+<main>
+<section class="light" id="about"><div class="wrap">
+<p class="label">About</p><h2>AI that holds up<br>in production.</h2>
+<div class="about">
+<p>I build AI that has to work when it matters. At Prodigal AI I shipped a multi-agent trading platform, cut its inference latency by 30% and my work has appeared in five IEEE conference papers. At IBM I built conversational AI for a water-conservation platform. Now, as an MS student in Computer Science (AI) at USC, I focus on generative AI, LLMs and multimodal systems, taking models from experiment to cloud and edge deployment. I care as much about how models fail as how they perform, which is why my research stress-tests AI detectors and anomaly models.</p>
+<div class="stats">
+<div><b>30%</b><span>lower latency in real-time multi-agent inference</span></div>
+<div><b>5 IEEE papers</b><span>conference publications, from crypto trading to medical imaging</span></div>
+<div><b>USC Viterbi</b><span>MS Computer Science, Los Angeles</span></div>
+</div></div></div></section>
+
+<section class="dark" id="work"><div class="wrap">
+<p class="label">Experience</p><h2>Where I’ve worked.</h2>
+<details class="job" open><summary><time>Sept 2024 – Jul 2025</time><h3>Prodigal AI</h3></summary>
+<ul>
+<li>Built production components of an automated stock and crypto trading platform: multi-agent AI strategies, transformer-based sentiment analysis, live market data, backtesting and trade execution.</li>
+<li>Delivered AI/ML services across the platform, including multimodal and multi-agent workflows, model inference pipelines, and secure APIs with versioning and billing.</li>
+<li>Created internal agentic AI prototypes and reusable infrastructure for deploying and testing agents, with automated CI/CD and scalable cloud services.</li>
+<li>Cut real-time inference latency by 30% for multi-agent trading systems and improved scalability across cloud and edge. Co-authored the resulting paper at IEEE ICACT 2025.</li>
+</ul></details>
+<details class="job"><summary><time>Jun 2024 – Aug 2024</time><h3>IBM</h3></summary>
+<ul>
+<li>Built conversational AI with IBM watsonx Assistant, including generative response workflows and prompt-driven interactions for BlueGuardian, an AI platform for water conservation and sanitation.</li>
+<li>Deployed cloud-based AI services on IBM Cloud, tuning prompts and model interactions for scalable, low-latency inference.</li>
+</ul></details>
+</div></section>
+
+<section class="dark" id="projects" style="padding-top:0;background:var(--navy)"><div class="wrap">
+<p class="label">Selected work</p><h2>Projects.</h2>
+
+<article class="proj open" data-art="market" >
+<button class="head" aria-expanded="true"><h3>The Real World Trading Engine</h3><span class="meta">Python · Transformers</span><i>+</i></button>
+<div class="body"><div><div class="stage"><canvas></canvas><div class="in">
+<div><p>A fully integrated AI-powered trading platform for stocks and cryptocurrencies, driven by news sentiment from BERT and RoBERTa models. It was published at IEEE ICACT 2025 as RealWorldEngine.</p><p>A modular price aggregation and backtesting engine pulls from Binance, Yahoo Finance, CoinGecko, Kraken and Coinbase. It supports Bollinger Bands, Mean Reversion, Trend Pullback and Trend Breakout strategies with risk-adjusted performance metrics. I also explored LLM-driven agent frameworks and low-latency data pipelines that extend to AI compilers, embedded systems and wireless optimization.</p><p class="tags">Python · Pandas · Transformers · Streamlit · Asyncio/WebSockets · Docker</p></div>
+<div class="demo"><div class="x"><h4 style="font:400 14px var(--sans);letter-spacing:.08em;color:var(--gold2);margin-bottom:14px">Strategy lab: pick a strategy, then switch the sentiment filter</h4><div class="xrow" id="strat"></div><div class="xrow"><button class="pill" id="sent" aria-pressed="false">Sentiment filter: off</button></div><canvas id="mk"></canvas><p class="cap" id="mcap"></p></div></div>
+</div></div></div></div>
+</article>
+<article class="proj" data-art="text" data-demo='{"title":"Detector true-positive rate at 0.1% false-positive rate","unit":"%","colors":["#b8975a","#d9485c"],"states":[{"label":"Original AI text","v":93.7,"note":"SVM-TF-IDF detector"},{"label":"After recursive paraphrasing","v":35.7,"note":"Same detector, attacked text"}]}'>
+<button class="head" aria-expanded="false"><h3>Adversarial Robustness of AI-Generated Text Detectors</h3><span class="meta">NLP · LLMs</span><i>+</i></button>
+<div class="body"><div><div class="stage"><canvas></canvas><div class="in">
+<div><p>An end-to-end NLP evaluation pipeline benchmarking SVM-TF-IDF, XGBoost, GPTZero-style, DetectGPT and Binoculars detectors on 10,000 HC3 human and AI responses.</p><p>Adversarial pipelines using T5 span masking, stylistic transformations and recursive LLM paraphrasing stress-test each detector, judged by ROC-AUC, F1, TPR and low-FPR operating points.</p><p class="tags">Python · XGBoost · T5 · DetectGPT</p></div>
+<div class="demo"><div class="metric"><h4></h4><div class="seg"></div><div class="meter"><i></i></div><div class="readout"><b></b><span></span></div></div><div class="x"><div class="xrow"><button class="pill" id="para">Paraphrase again</button></div><p class="quote" id="q"></p><p class="cap" id="round"></p></div></div>
+</div></div></div></div>
+</article>
+<article class="proj" data-art="mesh" data-demo='{"title":"Grid image-level AUROC on MVTec AD","unit":"","max":1,"colors":["#8d7a52","#b8975a","#e3c58a"],"states":[{"label":"L1 baseline","v":0.308,"note":"Original GANomaly loss"},{"label":"LPIPS loss","v":0.414,"note":"VGG-16 perceptual loss"},{"label":"Best ablation","v":0.632,"note":"Reconstruction, adversarial and latent objectives compared"}]}'>
+<button class="head" aria-expanded="false"><h3>Perceptual GANomaly for Industrial Anomaly Detection</h3><span class="meta">GANs · Vision</span><i>+</i></button>
+<div class="body"><div><div class="stage"><canvas></canvas><div class="in">
+<div><p>An unsupervised GAN that finds industrial defects after training only on defect-free MVTec AD images, classifying and localizing anomalies.</p><p>I replaced GANomaly’s pixel-wise L1 reconstruction loss with an LPIPS perceptual loss on pretrained VGG-16 features, then ran ablations across reconstruction, adversarial and latent-space objectives for cleaner defect heatmaps.</p><p class="tags">PyTorch · GANs · LPIPS · MVTec AD</p></div>
+<div class="demo"><div class="metric"><h4></h4><div class="seg"></div><div class="meter"><i></i></div><div class="readout"><b></b><span></span></div></div><p class="hint">Move or drag across this panel to relocate the defect and watch the anomaly heatmap follow it.</p></div>
+</div></div></div></div>
+</article>
+<article class="proj" data-art="skin" data-demo='{"title":"Validation accuracy across four CNNs, 30 epochs","unit":"%","colors":["#d9485c","#b8975a"],"states":[{"label":"Weakest model","v":26,"note":"Before tuning and augmentation"},{"label":"Best model","v":98,"note":"With regularization and augmentation"}]}'>
+<button class="head" aria-expanded="false"><h3>Improving Skin Lesion Classification with Data Augmentation and Sequential CNNs</h3><span class="meta">CNNs · Medical imaging</span><i>+</i></button>
+<div class="body"><div><div class="stage"><canvas></canvas><div class="in">
+<div><p>I developed and trained four CNN-based deep learning models for skin cancer classification, reaching validation accuracies from 26% to 98% over 30 epochs.</p><p>Regularization and data augmentation reduced overfitting and improved generalization. I evaluated and documented every model with key metrics, visualizations and analyses of training progress and results.</p><p class="tags">Python · TensorFlow · Keras · Data augmentation</p></div>
+<div class="demo"><div class="metric"><h4></h4><div class="seg"></div><div class="meter"><i></i></div><div class="readout"><b></b><span></span></div></div><div class="x"><div class="xrow"><canvas id="lesion"></canvas><div><button class="pill" id="augb">Augment image</button><p class="cap" id="aug"></p></div></div><p class="cap">Each tap applies a different augmentation, the same idea used to expand the training set. Synthetic lesion for illustration.</p></div></div>
+</div></div></div></div>
+</article>
+</div></section>
+
+<section class="dark" id="publications" style="padding-top:0"><div class="wrap">
+<p class="label">Research</p><h2>Publications.</h2>
+<details class="job" open><summary><time>ICACT 2025</time><h3 class="t">RealWorldEngine: Agile Modular Framework Integrating Transformer-Based Sentiment Analysis for Real-Time Cryptocurrency Trading</h3></summary>
+<div class="pb"><p>IEEE International Conference on Advanced Computing Technologies 2025</p><p>A modular crypto trading system that pairs BERT and RoBERTa sentiment scores from live crypto news with real-time execution. It adds EMA sentiment smoothing, a price aggregator across Binance, Coinbase, Kraken, CoinGecko and Yahoo Finance, a backtesting engine, ATR-based position sizing and a Streamlit dashboard.</p><a target="_blank" rel="noopener" href="https://ieeexplore.ieee.org/document/11351354">Read on IEEE Xplore</a></div></details>
+<details class="job"><summary><time>DELCON 2025</time><h3 class="t">Brain Tumour Detection Using DenseNet121: Exploring Data Augmentation and Test-Time Augmentation</h3></summary>
+<div class="pb"><p>IEEE Delhi Section Conference DELCON 2025</p><span class="res">99.41% accuracy</span><p>A pretrained DenseNet121, fine-tuned on augmented MRI scans, classifies tumour-present versus tumour-absent images. Test-time augmentation averages predictions over transformed copies to make results more reliable.</p><a target="_blank" rel="noopener" href="https://ieeexplore.ieee.org/document/11399974">Read on IEEE Xplore</a></div></details>
+<details class="job"><summary><time>ACROSET 2025</time><h3 class="t">Enhanced Skin Lesion Classification Using Augmented ISIC Data and Transfer Learning with DenseNet</h3></summary>
+<div class="pb"><p>IEEE International Conference on Advances in Computing Research on Science Engineering and Technology (ACROSET 2025)</p><span class="res">91% test accuracy</span><p>Transfer learning with a pretrained DenseNet on the public ISIC archive, with augmentation to fix class imbalance and improve generalization in binary skin cancer classification.</p><a target="_blank" rel="noopener" href="https://ieeexplore.ieee.org/document/11281371">Read on IEEE Xplore</a></div></details>
+<details class="job"><summary><time>ICAICCIT</time><h3 class="t">Enhancing Retinopathy of Prematurity Diagnosis with Fine-Tuned MobileNetV2 and Multi-Layer Dense Networks Using TTA</h3></summary>
+<div class="pb"><p>IEEE International Conference on Advances in Computation, Communication and Information Technology (ICAICCIT)</p><span class="res">95.56% accuracy</span><p>A lightweight MobileNetV2 with added dense layers classifies ROP phases from wide-angle retinal images, with test-time augmentation for robustness and a scalable path to computer-aided diagnosis.</p><a target="_blank" rel="noopener" href="https://ieeexplore.ieee.org/document/11434330">Read on IEEE Xplore</a></div></details>
+<details class="job"><summary><time>IEEE conference</time><h3 class="t">AI-Driven Tuberculosis Detection in Chest Radiographs</h3></summary>
+<div class="pb"><p>IEEE International Conference on Integration of Computational Intelligent System</p><span class="res">97.5% validation accuracy</span><p>A CNN classifies chest X-rays as TB-positive or TB-negative using resizing, normalization and augmentation, with regularization and early stopping, as a scalable aid for overburdened healthcare systems.</p><a target="_blank" rel="noopener" href="https://ieeexplore.ieee.org/document/11371068">Read on IEEE Xplore</a></div></details>
+</div></section>
+
+<section class="light" id="skills"><div class="wrap">
+<p class="label">Skills</p><h2>The toolkit.</h2>
+<div class="skills">
+<div><h3>Languages &amp; frameworks</h3><p>Python, C++, C, MATLAB, JavaScript, Solidity, Node.js, Flask, HTML/CSS</p></div>
+<div><h3>AI &amp; machine learning</h3><p>PyTorch, TensorFlow, Keras, Scikit-learn, XGBoost, Hugging Face Transformers, NLP, computer vision, GANs, LLMs</p></div>
+<div><h3>Data &amp; analytics</h3><p>Spark, NumPy, Pandas, Matplotlib, SQL</p></div>
+<div><h3>Tools &amp; systems</h3><p>Docker, Kubernetes, Git, REST APIs, WebSockets, CI/CD</p></div>
+</div></div></section>
+
+<section class="dark"><div class="wrap">
+<p class="label">Education</p><h2>Foundations.</h2>
+<div class="edu">
+<div><p class="yr">2025 – 2027</p><h3>University of Southern California</h3><p>MS in Computer Science, Artificial Intelligence. Viterbi School of Engineering.</p><div class="cw"><b>Relevant coursework</b><p>Deep Learning, Analysis of Algorithms, Machine Learning, Natural Language Processing, Web Technologies</p></div></div>
+<div><p class="yr">2021 – 2025</p><h3>Guru Gobind Singh Indraprastha University</h3><p>B.Tech in Artificial Intelligence and Data Science. University School of Automation and Robotics.</p><div class="cw"><b>Relevant coursework</b><p>Deep Learning, Natural Language Processing, Computer Graphics, Machine Learning, Artificial Intelligence</p></div></div>
+</div></div></section>
+
+<section class="light contact" id="contact"><div class="wrap">
+<p class="label">Contact</p><h2>Let’s build something.</h2>
+<a class="big" href="mailto:yadavd@usc.edu">yadavd@usc.edu</a>
+<div class="links"><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/divyanshu-yadav-b5427b259/">LinkedIn</a><a target="_blank" rel="noopener" href="https://github.com/Divyanshuyadav007">GitHub</a><a target="_blank" rel="noopener" href="https://scholar.google.com/citations?user=KNQVb_IAAAAJ&hl=en">Scholar</a></div>
+</div></section>
+</main>
+<footer><b>DY</b>Divyanshu Yadav · 2026</footer>
+
+<script>
+var $=function(q,r){return(r||document).querySelector(q)};
+var nav=$('#nav'),mb=$('#menu'),nl=$('#navlinks');
+function setMenu(o){nl.classList.toggle('open',o);mb.setAttribute('aria-expanded',o);nav.classList.toggle('solid',o||scrollY>40)}
+mb.onclick=function(){setMenu(!nl.classList.contains('open'))};
+nl.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){setMenu(false)})});
+addEventListener('keydown',function(e){if(e.key==='Escape')setMenu(false)});
+function onScroll(){nav.classList.toggle('solid',scrollY>40||nl.classList.contains('open'))}
+addEventListener('scroll',onScroll,{passive:true});onScroll();
+function rng(seed){return function(){seed=(seed*16807)%2147483647;return(seed-1)/2147483646}}
+
+// metric toggles
+document.querySelectorAll('[data-demo]').forEach(function(el){
+  var d=JSON.parse(el.dataset.demo),max=d.max||100,m=$('.metric',el),seg=$('.seg',m),bar=$('.meter i',m),num=$('.readout b',m),note=$('.readout span',m);
+  $('h4',m).textContent=d.title;
+  function pick(i){var s=d.states[i];seg.querySelectorAll('button').forEach(function(b,j){b.setAttribute('aria-pressed',j===i)});
+    bar.style.width=(s.v/max*100)+'%';bar.style.background=d.colors[i];num.textContent=s.v+d.unit;note.textContent=s.note}
+  d.states.forEach(function(s,i){var b=document.createElement('button');b.type='button';b.textContent=s.label;b.onclick=function(){pick(i)};seg.appendChild(b)});
+  el._pick=pick;
+});
+
+// project backdrops
+function art(cv,type){
+  var st=cv.parentElement,w=st.offsetWidth,h=st.offsetHeight,dpr=Math.min(devicePixelRatio||1,2),x=cv.getContext('2d'),r=rng(7);
+  cv.width=w*dpr;cv.height=h*dpr;x.setTransform(dpr,0,0,dpr,0,0);
+  var g=x.createLinearGradient(0,0,w,h);g.addColorStop(0,'#0b1d3a');g.addColorStop(1,type==='skin'?'#2a1630':'#12305a');x.fillStyle=g;x.fillRect(0,0,w,h);
+  if(type==='text'){
+    for(var y=28;y<h-10;y+=24){var px=40,flag=r()<.22,para=r()<.18;
+      while(px<w-60){var ww=24+r()*90;x.fillStyle=flag?'rgba(217,72,92,.5)':para?'rgba(227,197,138,.5)':'rgba(247,243,234,.13)';x.fillRect(px+(para?10:0),y,ww,7);px+=ww+12}}
+    var sx=w*.72,l=x.createLinearGradient(sx-90,0,sx+90,0);l.addColorStop(0,'rgba(184,151,90,0)');l.addColorStop(.5,'rgba(227,197,138,.35)');l.addColorStop(1,'rgba(184,151,90,0)');x.fillStyle=l;x.fillRect(sx-90,0,180,h);
+  }else if(type==='mesh'){
+    x.strokeStyle='rgba(247,243,234,.13)';x.lineWidth=1;
+    for(var i=0;i<w;i+=13){x.beginPath();x.moveTo(i,0);x.lineTo(i,h);x.stroke()}
+    for(var j=0;j<h;j+=13){x.beginPath();x.moveTo(0,j);x.lineTo(w,j);x.stroke()}
+    var dd=cv._d||[.74,.5],cx=w*dd[0],cy=h*dd[1],rg=x.createRadialGradient(cx,cy,0,cx,cy,Math.min(w,h)*.55);
+    rg.addColorStop(0,'rgba(217,72,92,.8)');rg.addColorStop(.45,'rgba(122,31,43,.5)');rg.addColorStop(1,'rgba(122,31,43,0)');x.fillStyle=rg;x.fillRect(0,0,w,h);
+    x.strokeStyle='rgba(227,197,138,.8)';x.lineWidth=2;x.beginPath();x.moveTo(cx-120,cy-60);x.bezierCurveTo(cx-40,cy-10,cx+30,cy+40,cx+110,cy+70);x.stroke();
+    x.lineWidth=1;x.beginPath();x.arc(cx,cy,Math.min(w,h)*.3,0,7);x.stroke();
+  }else if(type==='market'){
+    x.strokeStyle='rgba(247,243,234,.06)';for(var k=0;k<w;k+=60){x.beginPath();x.moveTo(k,0);x.lineTo(k,h);x.stroke()}
+    for(var n=0;n<4;n++){var v=h*(.3+.12*n);x.beginPath();x.moveTo(0,v);for(var t=1;t<=60;t++){v+=(r()-.5)*26;v=Math.max(20,Math.min(h-20,v));x.lineTo(t*w/60,v)}
+      x.strokeStyle=n===1?'rgba(227,197,138,.45)':'rgba(247,243,234,.12)';x.lineWidth=1.4;x.stroke()}
+  }else{
+    for(var b=0;b<5;b++){var bx=w*(.55+r()*.4),by=h*(.2+r()*.6),br=60+r()*90,bg=x.createRadialGradient(bx,by,0,bx,by,br);
+      bg.addColorStop(0,'rgba(150,70,80,.45)');bg.addColorStop(1,'rgba(150,70,80,0)');x.fillStyle=bg;x.fillRect(0,0,w,h)}
+    for(var q=0;q<260;q++){x.fillStyle='rgba(247,243,234,'+(r()*.12)+')';x.fillRect(r()*w,r()*h,2,2)}
+  }
+}
+document.querySelectorAll('.proj').forEach(function(p){
+  var cv=$('canvas',p),stg=$('.stage',p),head=$('.head',p),type=p.dataset.art,pend=0;
+  function draw(){art(cv,type);if(p._x)p._x()}
+  function open(o){p.classList.toggle('open',o);head.setAttribute('aria-expanded',o);if(o)setTimeout(draw,30)}
+  head.onclick=function(){open(!p.classList.contains('open'))};
+  if(type==='mesh')stg.addEventListener('pointermove',function(e){var r=stg.getBoundingClientRect();cv._d=[(e.clientX-r.left)/r.width,(e.clientY-r.top)/r.height];
+    if(!pend){pend=1;requestAnimationFrame(function(){pend=0;art(cv,type)})}});
+  if(p.classList.contains('open'))setTimeout(draw,120);
+  addEventListener('resize',function(){if(p.classList.contains('open'))draw()});
+  p._open=draw;
+});
+document.querySelectorAll('[data-demo]').forEach(function(el){el._pick(0)});
+
+// paraphrase demo
+(function(){var Q=['Tuberculosis remains a leading cause of death worldwide, especially where resources are scarce.','Worldwide, TB is still among the top killers, and low-resource regions suffer most.','In places with limited resources, tuberculosis keeps claiming many lives across the globe.','Many lives are still lost to TB globally, hitting under-resourced areas hardest.'],i=0,q=$('#q'),ro=$('#round');
+  function show(){q.style.opacity=0;setTimeout(function(){q.textContent='“'+Q[i]+'”';ro.textContent=i?'Paraphrase round '+i+' of '+(Q.length-1)+'. The meaning holds while the wording drifts away from what detectors learned. Illustrative text.':'Original sentence. Tap to paraphrase it again and again. Illustrative text.';q.style.opacity=1},180)}
+  $('#para').onclick=function(){i=(i+1)%Q.length;show()};q.textContent='“'+Q[0]+'”';ro.textContent='Original sentence. Tap to paraphrase it again and again. Illustrative text.';
+})();
+
+// strategy lab
+(function(){var cv=$('#mk');if(!cv)return;var x=cv.getContext('2d'),r=rng(11),P=[],S=[],p=100,i,st='bb',sf=false;
+  for(i=0;i<140;i++){p+=(r()-.47)*2.6+Math.sin(i/11)*.9;P.push(p);S.push(Math.sin(i/16+1.2)+(r()-.5)*.5)}
+  var names={bb:'Bollinger Bands',mr:'Mean Reversion',tp:'Trend Pullback',tb:'Trend Breakout'};
+  function sma(n,i){if(i<n-1)return null;var s=0;for(var k=i-n+1;k<=i;k++)s+=P[k];return s/n}
+  function sd(n,i,m){var s=0;for(var k=i-n+1;k<=i;k++)s+=(P[k]-m)*(P[k]-m);return Math.sqrt(s/n)}
+  function hi(i){if(i<20)return null;var m=-1e9;for(var k=i-20;k<i;k++)m=Math.max(m,P[k]);return m}
+  function draw(){var w=cv.clientWidth;if(!w)return;var h=170,d=Math.min(devicePixelRatio||1,2);cv.width=w*d;cv.height=h*d;x.setTransform(d,0,0,d,0,0);
+    var mn=Math.min.apply(0,P)-3,mx=Math.max.apply(0,P)+3,X=function(i){return 8+i*(w-16)/(P.length-1)},Y=function(v){return h-8-(v-mn)/(mx-mn)*(h-16)};
+    if(sf){x.fillStyle='rgba(217,72,92,.16)';for(i=0;i<P.length;i++)if(S[i]<0)x.fillRect(X(i)-w/280,0,w/140+1,h)}
+    function line(fn,col,dash){x.beginPath();var on=0;for(var i=0;i<P.length;i++){var v=fn(i);if(v==null)continue;on?x.lineTo(X(i),Y(v)):x.moveTo(X(i),Y(v));on=1}x.strokeStyle=col;x.lineWidth=1.4;x.setLineDash(dash||[]);x.stroke();x.setLineDash([])}
+    var G='rgba(227,197,138,.7)',sig=[],m;
+    if(st==='bb'){var U=function(i){var m=sma(20,i);return m==null?null:m+2*sd(20,i,m)},L=function(i){var m=sma(20,i);return m==null?null:m-2*sd(20,i,m)};line(U,G,[4,3]);line(L,G,[4,3]);for(i=20;i<P.length;i++)if(P[i]<L(i))sig.push(i)}
+    if(st==='mr'){line(function(i){return sma(20,i)},G,[4,3]);for(i=20;i<P.length;i++){m=sma(20,i);if((P[i]-m)/sd(20,i,m)<-1.2)sig.push(i)}}
+    if(st==='tp'){line(function(i){return sma(10,i)},G);line(function(i){return sma(30,i)},'rgba(247,243,234,.4)',[4,3]);for(i=30;i<P.length;i++)if(sma(10,i)>sma(30,i)&&P[i]<sma(5,i)&&P[i-1]>=sma(5,i-1))sig.push(i)}
+    if(st==='tb'){line(hi,G,[4,3]);for(i=20;i<P.length;i++)if(P[i]>hi(i))sig.push(i)}
+    line(function(i){return P[i]},'#f7f3ea');
+    sig=sig.filter(function(v,j){return j===0||v-sig[j-1]>1});var all=sig.length;if(sf)sig=sig.filter(function(v){return S[v]>=0});
+    x.fillStyle='#e3c58a';sig.forEach(function(v){x.beginPath();x.arc(X(v),Y(P[v]),4.5,0,7);x.fill()});
+    $('#mcap').textContent=names[st]+': '+sig.length+' entry signal'+(sig.length===1?'':'s')+(sf?', '+(all-sig.length)+' blocked by negative sentiment (shaded)':'')+'. Illustrative simulation on synthetic prices, not real trading results.'}
+  var row=$('#strat');Object.keys(names).forEach(function(k){var b=document.createElement('button');b.className='pill';b.type='button';b.textContent=names[k];b.setAttribute('aria-pressed',k===st);
+    b.onclick=function(){st=k;row.querySelectorAll('button').forEach(function(o){o.setAttribute('aria-pressed',o===b)});draw()};row.appendChild(b)});
+  $('#sent').onclick=function(){sf=!sf;this.setAttribute('aria-pressed',sf);this.textContent='Sentiment filter: '+(sf?'on':'off');draw()};
+  cv.closest('.proj')._x=draw;
+})();
+
+// augmentation demo
+(function(){var c=$('#lesion');if(!c)return;var x=c.getContext('2d'),i=0,W=150,H=110,
+  T=[['Original',function(){}],['Rotate 25°',function(){x.rotate(.436)}],['Flip horizontal',function(){x.scale(-1,1)}],['Zoom 1.3×',function(){x.scale(1.3,1.3)}],['Shift',function(){x.translate(18,-12)}]];
+  function draw(){var d=Math.min(devicePixelRatio||1,2);c.width=W*d;c.height=H*d;x.setTransform(d,0,0,d,0,0);x.fillStyle='#3a2326';x.fillRect(0,0,W,H);x.save();x.translate(W/2,H/2);T[i][1]();
+    var r=rng(5);x.beginPath();for(var a=0;a<=6.3;a+=.35){var rad=26+r()*12+(a<3?10:0);x.lineTo(Math.cos(a)*rad*1.15,Math.sin(a)*rad*.8)}x.closePath();
+    var g=x.createRadialGradient(0,0,4,0,0,44);g.addColorStop(0,'#2a1214');g.addColorStop(1,'#7a3a3a');x.fillStyle=g;x.fill();x.restore();$('#aug').textContent='Applied: '+T[i][0]}
+  $('#augb').onclick=function(){i=(i+1)%T.length;draw()};draw();
+})();
+</script>
+</body>
+</html>
