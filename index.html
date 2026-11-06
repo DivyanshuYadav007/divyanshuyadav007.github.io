@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Divyanshu Yadav – AI/ML Engineer</title>
+<meta name="description" content="AI/ML engineer building generative AI, LLM and real-time intelligent systems. MS Computer Science (AI), USC.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%230b1d3a%22/><text x=%2250%22 y=%2268%22 font-size=%2252%22 text-anchor=%22middle%22 fill=%22%23b8975a%22 font-family=%22serif%22>DY</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b1d3a;--navy2:#102849;--ivory:#f7f3ea;--gold:#b8975a;--gold2:#e3c58a;--wine:#7a1f2b;--ink:#1b2438;--serif:'Cormorant Garamond',Georgia,serif;--sans:'Jost',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+html{-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
+body{overflow-x:clip;background:var(--ivory);color:var(--ink);font:300 18px/1.7 var(--sans)}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 28px}
+nav{position:fixed;inset:0 0 auto;z-index:10;transition:background .4s,border-color .4s;border-bottom:1px solid transparent}
+nav.solid{background:rgba(11,29,58,.94);backdrop-filter:blur(8px);border-color:rgba(184,151,90,.35)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:68px}
+.mono{font:500 26px var(--serif);color:var(--gold2);text-decoration:none;letter-spacing:.06em}
+nav ul{display:flex;gap:34px;list-style:none;padding:0;font:400 13px var(--sans);letter-spacing:.2em;text-transform:uppercase}
+nav ul a{text-decoration:none;color:var(--ivory);opacity:.8;transition:opacity .2s,color .2s}
+nav ul a:hover{opacity:1;color:var(--gold2)}
+.menu{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer;position:relative}
+.menu i,.menu i::before{position:absolute;left:10px;right:10px;height:1.5px;background:var(--gold2);transition:transform .3s,top .3s}
+.menu i{top:21px}.menu i::before{content:'';left:0;right:0;top:-7px}
+.menu[aria-expanded=true] i{transform:rotate(45deg)}.menu[aria-expanded=true] i::before{top:0;transform:rotate(90deg)}
+/* hero */
+.hero{min-height:100svh;background:radial-gradient(120% 90% at 75% 40%,var(--navy2),var(--navy) 65%);color:var(--ivory);min-height:100vh;display:flex;align-items:center;padding:110px 0 70px;position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;inset:auto 0 0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center}
+.rise{opacity:0;transform:translateY(22px);animation:rise 1.1s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+.d1{animation-delay:.15s}.d2{animation-delay:.4s}.d3{animation-delay:.65s}.d4{animation-delay:.9s}
+.kicker{font:400 13px var(--sans);letter-spacing:.32em;text-transform:uppercase;color:var(--gold2);margin-bottom:26px;display:flex;align-items:center;gap:16px}
+.kicker::before{content:'';width:48px;height:1px;background:var(--gold)}
+h1{font:500 clamp(58px,9vw,118px)/.92 var(--serif);letter-spacing:-.01em}
+h1 em{display:block;font-style:italic;color:var(--gold2)}
+.lead{font-size:20px;max-width:28em;margin-top:30px;color:#d9dcE6;font-weight:300}
+.btns{display:flex;gap:16px;flex-wrap:wrap;margin-top:40px}
+.btn{display:inline-block;padding:15px 34px;font:400 13px var(--sans);letter-spacing:.2em;text-transform:uppercase;text-decoration:none;border:1px solid var(--gold);transition:background .3s,color .3s}
+.btn.fill{background:var(--gold);color:var(--navy)}
+.btn.fill:hover{background:var(--gold2)}.btn.ghost:hover{background:rgba(184,151,90,.15)}
+.portrait{position:relative;justify-self:center;width:min(100%,400px)}
+.portrait::before{content:'';position:absolute;inset:-16px 16px 16px -16px;border:1px solid var(--gold);border-radius:999px 999px 0 0;z-index:0}
+.portrait img{position:relative;z-index:1;width:100%;aspect-ratio:3/4;object-fit:cover;object-position:50% 22%;border-radius:999px 999px 0 0;display:block;filter:contrast(1.04) saturate(1.05)}
+/* sections */
+section{padding:120px 0}
+.light{background:var(--ivory)}.dark{background:var(--navy);color:var(--ivory)}
+.label{font:400 13px var(--sans);letter-spacing:.32em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+h2{font:500 clamp(40px,5.5vw,68px)/1.05 var(--serif);margin-bottom:56px}
+.about{display:grid;grid-template-columns:1.3fr 1fr;gap:80px;align-items:start}
+.about p{max-width:32em;font-size:20px}
+.stats{display:grid;gap:34px}
+.stats div{border-top:1px solid var(--gold);padding-top:14px}
+.stats b{display:block;font:500 48px/1 var(--serif);color:var(--wine)}
+.stats span{font-size:15px;color:#4a5370}
+/* experience */
+.job{border-top:1px solid rgba(184,151,90,.45)}
+.job:last-child{border-bottom:1px solid rgba(184,151,90,.45)}
+.job summary{display:grid;grid-template-columns:200px 1fr 30px;align-items:baseline;gap:20px;padding:30px 0;cursor:pointer;list-style:none}
+.job summary::-webkit-details-marker{display:none}
+.job time{font-size:14px;letter-spacing:.14em;color:var(--gold2);text-transform:uppercase}
+.job h3{font:500 36px/1.1 var(--serif)}
+.job summary::after{content:'+';font:300 32px var(--serif);color:var(--gold2);transition:transform .3s}
+.job[open] summary::after{transform:rotate(45deg)}
+.job ul{padding:0 40px 38px 220px;display:grid;gap:12px;color:#cfd3df;max-width:60em;list-style:'—  '}
+.job li{margin-left:20px}
+/* projects */
+.proj{border-top:1px solid rgba(184,151,90,.5)}
+.proj:last-child{border-bottom:1px solid rgba(184,151,90,.5)}
+.head{all:unset;box-sizing:border-box;width:100%;display:grid;grid-template-columns:1fr auto 40px;gap:24px;align-items:center;padding:34px 0;cursor:pointer}
+.head:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}
+.head h3{font:500 clamp(28px,3.6vw,44px)/1.1 var(--serif);transition:color .3s}
+.head:hover h3{color:var(--gold2)}
+.head .meta{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2)}
+.head i{font:300 36px var(--serif);color:var(--gold2);font-style:normal;transition:transform .4s;text-align:center}
+.proj.open .head i{transform:rotate(45deg)}
+.body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .8s cubic-bezier(.2,.7,.2,1)}
+.proj.open .body{grid-template-rows:1fr}
+.body>div{overflow:hidden;min-height:0}
+.stage{position:relative;margin-bottom:34px;border:1px solid rgba(184,151,90,.5);overflow:hidden;background:var(--navy2) center/cover}
+.stage canvas{position:absolute;inset:0;width:100%;height:100%}
+.stage::before{content:'';position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(8,20,40,.92) 0%,rgba(8,20,40,.75) 48%,rgba(8,20,40,.3) 100%)}
+.stage .in{position:relative;z-index:2;display:grid;grid-template-columns:1.1fr 1fr;gap:56px;padding:54px}
+.stage p{max-width:30em;color:#e3e6ee;margin-bottom:16px}
+.tags{font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2);margin-top:22px}
+.demo{align-self:center;background:rgba(247,243,234,.07);border:1px solid rgba(227,197,138,.45);backdrop-filter:blur(6px);padding:28px}
+.demo h4{font:400 14px var(--sans);letter-spacing:.08em;color:var(--gold2);margin-bottom:18px}
+.seg{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:26px}
+.seg button{font:400 13px var(--sans);letter-spacing:.06em;padding:9px 16px;background:transparent;color:var(--ivory);border:1px solid rgba(227,197,138,.6);cursor:pointer;transition:background .25s,color .25s}
+.seg button[aria-pressed=true]{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+.meter{height:6px;background:rgba(247,243,234,.18)}
+.meter i{display:block;height:100%;width:0;transition:width .9s cubic-bezier(.2,.7,.2,1),background .5s}
+.readout{margin-top:18px;display:flex;justify-content:space-between;align-items:flex-end;gap:16px}
+.readout b{font:500 64px/1 var(--serif);color:var(--ivory)}
+.readout span{font-size:14px;color:#c9cddb;text-align:right;max-width:14em}
+/* skills & edu */
+.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:48px 80px}
+.skills h3{font:500 28px var(--serif);color:var(--wine);margin-bottom:6px;padding-bottom:10px;border-bottom:1px solid var(--gold)}
+.skills p{margin-top:14px;color:#3a435d}
+.edu{display:grid;grid-template-columns:1fr 1fr;gap:80px}
+.edu h3{font:500 34px/1.15 var(--serif);margin-bottom:10px}
+.edu p{color:#cfd3df;font-size:17px}.edu .yr{color:var(--gold2);letter-spacing:.14em;text-transform:uppercase;font-size:13px;margin-bottom:8px}
+.contact{text-align:center}
+.contact a.big{display:inline-block;overflow-wrap:anywhere;font:500 clamp(30px,6vw,76px)/1.1 var(--serif);text-decoration:none;color:var(--navy);border-bottom:1px solid var(--gold);padding-bottom:10px;transition:color .3s}
+.contact a.big:hover{color:var(--wine)}
+.links{display:flex;flex-wrap:wrap;row-gap:18px;gap:18px 40px;justify-content:center;margin-top:44px;font-size:13px;letter-spacing:.24em;text-transform:uppercase}
+.links a{padding:10px 2px;text-decoration:none;color:var(--ink);border-bottom:1px solid transparent}.links a:hover{border-color:var(--gold)}
+footer{background:var(--navy);color:var(--gold2);text-align:center;padding:40px 0;font:400 12px var(--sans);letter-spacing:.3em;text-transform:uppercase}
+footer b{display:block;font:500 34px var(--serif);letter-spacing:.1em;margin-bottom:8px}
+@media(max-width:820px){
+body{font-size:17px}
+nav .wrap{height:62px}.menu{display:block;margin-right:-10px}
+nav ul{position:absolute;top:62px;left:0;right:0;flex-direction:column;gap:0;background:rgba(11,29,58,.98);border-bottom:1px solid rgba(184,151,90,.4);padding:8px 28px 18px;font-size:13px;letter-spacing:.2em;display:none}
+nav ul.open{display:flex}nav li{border-bottom:1px solid rgba(184,151,90,.2)}nav li:last-child{border:0}
+nav ul a{display:block;padding:16px 0;opacity:1}
+nav{padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
+.wrap{padding:0 max(22px,env(safe-area-inset-left))}
+.hero .wrap,.about,.skills,.edu,.stage .in{grid-template-columns:1fr;gap:40px}
+.hero{padding:96px 0 56px;align-items:flex-start}.hero .wrap{gap:44px}
+.portrait{order:-1;width:min(72%,300px);margin-left:14px}
+.kicker{font-size:12px;letter-spacing:.26em;margin-bottom:18px}.kicker::before{width:30px}
+.lead{font-size:18px;margin-top:22px}
+.btns{margin-top:30px}.btn{flex:1 1 100%;text-align:center;padding:16px 20px}
+section{padding:72px 0}h2{margin-bottom:36px}.about p{font-size:18px}.stats b{font-size:40px}
+.job summary{grid-template-columns:1fr 30px;padding:24px 0;gap:6px 12px}.job time{grid-column:1/-1}.job h3{font-size:30px}.job ul{padding:0 0 28px}
+.head{grid-template-columns:1fr 40px;padding:26px 0;gap:14px}.head .meta{display:none}.head i{font-size:34px;min-height:44px;line-height:44px}
+.stage::before{background:rgba(8,20,40,.82)}
+.stage .in{padding:28px 20px;gap:28px}.demo{padding:22px 18px}
+.seg button{min-height:44px;flex:1 1 auto}
+.readout{flex-direction:column;align-items:flex-start;gap:6px}.readout b{font-size:54px}.readout span{text-align:left;max-width:none}
+.skills,.edu{gap:36px}.edu h3{font-size:30px}
+.links{gap:6px 28px}}
+@media(max-width:380px){h1{font-size:54px}.job h3{font-size:27px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rise{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<nav id="nav"><div class="wrap"><a class="mono" href="#top" aria-label="Top">DY</a>
+<button class="menu" id="menu" aria-label="Menu" aria-expanded="false" aria-controls="navlinks"><i></i></button>
+<ul id="navlinks"><li><a href="#about">About</a></li><li><a href="#work">Experience</a></li><li><a href="#projects">Projects</a></li><li><a href="#skills">Skills</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+<div>
+<p class="kicker rise d1">AI / ML Engineer</p>
+<h1 class="rise d2">Divyanshu<em>Yadav</em></h1>
+<p class="lead rise d3">I build and stress-test AI systems: generative models, LLM pipelines and real-time agents that hold up beyond the notebook.</p>
+<div class="btns rise d4"><a class="btn fill" href="#projects">View projects</a><a class="btn ghost" href="#contact">Get in touch</a></div>
+</div>
+<div class="portrait rise d3"><img src="photo.jpg" alt="Portrait of Divyanshu Yadav"></div>
+</div></header>
+
+<main>
+<section class="light" id="about"><div class="wrap">
+<p class="label">About</p><h2>Engineering with<br>precision and taste.</h2>
+<div class="about">
+<p>I’m pursuing my MS in Computer Science (Artificial Intelligence) at USC. My work spans generative AI, LLMs, multimodal systems and real-time intelligent platforms, from scalable ML pipelines and model optimization to deployment across cloud, edge and embedded environments.</p>
+<div class="stats">
+<div><b>30%</b><span>lower latency in real-time multi-agent inference</span></div>
+<div><b>IEEE ICACT ’25</b><span>co-authored publication</span></div>
+<div><b>USC Viterbi</b><span>MS Computer Science, Los Angeles</span></div>
+</div></div></div></section>
+
+<section class="dark" id="work"><div class="wrap">
+<p class="label">Experience</p><h2>Where I’ve worked.</h2>
+<details class="job" open><summary><time>Sept 2024 – Jul 2025</time><h3>Prodigal AI</h3></summary>
+<ul>
+<li>Built production components of an automated stock and crypto trading platform: multi-agent AI strategies, transformer-based sentiment analysis, live market data, backtesting and trade execution.</li>
+<li>Delivered AI/ML services across the platform, including multimodal and multi-agent workflows, model inference pipelines, and secure APIs with versioning and billing.</li>
+<li>Created internal agentic AI prototypes and reusable infrastructure for deploying and testing agents, with automated CI/CD and scalable cloud services.</li>
+<li>Cut real-time inference latency by 30% for multi-agent trading systems and improved scalability across cloud and edge. Co-authored the resulting paper at IEEE ICACT 2025.</li>
+</ul></details>
+<details class="job"><summary><time>Jun 2024 – Aug 2024</time><h3>IBM</h3></summary>
+<ul>
+<li>Built conversational AI with IBM watsonx Assistant, including generative response workflows and prompt-driven interactions for BlueGuardian, an AI platform for water conservation and sanitation.</li>
+<li>Deployed cloud-based AI services on IBM Cloud, tuning prompts and model interactions for scalable, low-latency inference.</li>
+</ul></details>
+</div></section>
+
+<section class="dark" id="projects" style="padding-top:0;background:var(--navy)"><div class="wrap">
+<p class="label">Selected work</p><h2>Projects.</h2>
+
+<article class="proj open" data-art="text" data-demo='{"title":"Detector true-positive rate at 0.1% false-positive rate","unit":"%","colors":["#b8975a","#d9485c"],"states":[{"label":"Original AI text","v":93.7,"note":"SVM-TF-IDF detector"},{"label":"After recursive paraphrasing","v":35.7,"note":"Same detector, attacked text"}]}'>
+<button class="head" aria-expanded="true"><h3>Adversarial Robustness of AI-Generated Text Detectors</h3><span class="meta">NLP · LLMs</span><i>+</i></button>
+<div class="body"><div><div class="stage"><canvas></canvas><div class="in">
+<div><p>An end-to-end NLP evaluation pipeline benchmarking SVM-TF-IDF, XGBoost, GPTZero-style, DetectGPT and Binoculars detectors on 10,000 HC3 human and AI responses.</p>
+<p>Adversarial pipelines using T5 span masking, stylistic transformations and recursive LLM paraphrasing stress-test each detector, judged by ROC-AUC, F1, TPR and low-FPR operating points.</p>
+<p class="tags">Python · XGBoost · T5 · DetectGPT</p></div>
+<div class="demo"><h4></h4><div class="seg"></div><div class="meter"><i></i></div><div class="readout"><b></b><span></span></div></div>
+</div></div></div></div>
+</article>
+
+<article class="proj" data-art="mesh" data-demo='{"title":"Grid image-level AUROC on MVTec AD","unit":"","max":1,"colors":["#8d7a52","#b8975a","#e3c58a"],"states":[{"label":"L1 baseline","v":0.308,"note":"Original GANomaly loss"},{"label":"LPIPS loss","v":0.414,"note":"VGG-16 perceptual loss"},{"label":"Best ablation","v":0.632,"note":"Reconstruction, adversarial and latent objectives compared"}]}'>
+<button class="head" aria-expanded="false"><h3>Perceptual GANomaly for Industrial Anomaly Detection</h3><span class="meta">GANs · Vision</span><i>+</i></button>
+<div class="body"><div><div class="stage"><canvas></canvas><div class="in">
+<div><p>An unsupervised GAN that finds industrial defects after training only on defect-free MVTec AD images, classifying and localizing anomalies.</p>
+<p>I replaced GANomaly’s pixel-wise L1 reconstruction loss with an LPIPS perceptual loss on pretrained VGG-16 features, then ran ablations across reconstruction, adversarial and latent-space objectives for cleaner defect heatmaps.</p>
+<p class="tags">PyTorch · GANs · LPIPS · MVTec AD</p></div>
+<div class="demo"><h4></h4><div class="seg"></div><div class="meter"><i></i></div><div class="readout"><b></b><span></span></div></div>
+</div></div></div></div>
+</article>
+</div></section>
+
+<section class="light" id="skills"><div class="wrap">
+<p class="label">Skills</p><h2>The toolkit.</h2>
+<div class="skills">
+<div><h3>Languages &amp; frameworks</h3><p>Python, C++, C, MATLAB, JavaScript, Solidity, Node.js, Flask, HTML/CSS</p></div>
+<div><h3>AI &amp; machine learning</h3><p>PyTorch, TensorFlow, Keras, Scikit-learn, XGBoost, Hugging Face Transformers, NLP, computer vision, GANs, LLMs</p></div>
+<div><h3>Data &amp; analytics</h3><p>Spark, NumPy, Pandas, Matplotlib, SQL</p></div>
+<div><h3>Tools &amp; systems</h3><p>Docker, Kubernetes, Git, REST APIs, WebSockets, CI/CD</p></div>
+</div></div></section>
+
+<section class="dark"><div class="wrap">
+<p class="label">Education</p><h2>Foundations.</h2>
+<div class="edu">
+<div><p class="yr">2025 – 2027</p><h3>University of Southern California</h3><p>MS in Computer Science, Artificial Intelligence. Viterbi School of Engineering. Deep Learning, Analysis of Algorithms, Machine Learning, NLP, Web Technologies.</p></div>
+<div><p class="yr">2021 – 2025</p><h3>Guru Gobind Singh Indraprastha University</h3><p>B.Tech in Artificial Intelligence and Data Science. University School of Automation and Robotics.</p></div>
+</div></div></section>
+
+<section class="light contact" id="contact"><div class="wrap">
+<p class="label">Contact</p><h2>Let’s build something.</h2>
+<a class="big" href="mailto:yadavd@usc.edu">yadavd@usc.edu</a>
+<div class="links"><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/divyanshu-yadav-b5427b259/">LinkedIn</a><a target="_blank" rel="noopener" href="https://github.com/Divyanshuyadav007">GitHub</a><a target="_blank" rel="noopener" href="https://scholar.google.com/citations?user=KNQVb_IAAAAJ&hl=en">Scholar</a></div>
+</div></section>
+</main>
+<footer><b>DY</b>Divyanshu Yadav · 2026</footer>
+
+<script>
+var nav=document.getElementById('nav'),mb=document.getElementById('menu'),nl=document.getElementById('navlinks');
+function setMenu(o){nl.classList.toggle('open',o);mb.setAttribute('aria-expanded',o);nav.classList.toggle('solid',o||scrollY>40)}
+mb.onclick=function(){setMenu(!nl.classList.contains('open'))};
+nl.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){setMenu(false)})});
+addEventListener('keydown',function(e){if(e.key==='Escape')setMenu(false)});
+function onScroll(){nav.classList.toggle('solid',scrollY>40||nl.classList.contains('open'))}addEventListener('scroll',onScroll,{passive:true});onScroll();
+
+// metric demos
+document.querySelectorAll('[data-demo]').forEach(function(el){
+  var d=JSON.parse(el.dataset.demo),max=d.max||100,seg=el.querySelector('.seg'),bar=el.querySelector('.meter i'),
+  num=el.querySelector('.readout b'),note=el.querySelector('.readout span');
+  el.querySelector('h4').textContent=d.title;
+  function pick(i){
+    var s=d.states[i];
+    seg.querySelectorAll('button').forEach(function(b,j){b.setAttribute('aria-pressed',j===i)});
+    bar.style.width=(s.v/max*100)+'%';bar.style.background=d.colors[i];
+    num.textContent=s.v+d.unit;note.textContent=s.note;
+  }
+  d.states.forEach(function(s,i){var b=document.createElement('button');b.type='button';b.textContent=s.label;b.onclick=function(){pick(i)};seg.appendChild(b)});
+  el._pick=pick;
+});
+
+// generated project backdrops (swap for a photo by adding data-bg="images/yourfile.jpg" to an <article>)
+function rng(seed){return function(){seed=(seed*16807)%2147483647;return(seed-1)/2147483646}}
+function art(canvas,type){
+  var st=canvas.parentElement,w=st.offsetWidth,h=st.offsetHeight,dpr=Math.min(devicePixelRatio||1,2),x=canvas.getContext('2d'),r=rng(7);
+  canvas.width=w*dpr;canvas.height=h*dpr;x.setTransform(dpr,0,0,dpr,0,0);
+  var g=x.createLinearGradient(0,0,w,h);g.addColorStop(0,'#0b1d3a');g.addColorStop(1,'#12305a');x.fillStyle=g;x.fillRect(0,0,w,h);
+  if(type==='text'){
+    for(var y=28;y<h-10;y+=24){
+      var px=40,flag=r()<.22,para=r()<.18;
+      while(px<w-60){
+        var ww=24+r()*90;
+        x.fillStyle=flag?'rgba(217,72,92,.5)':para?'rgba(227,197,138,.5)':'rgba(247,243,234,.13)';
+        x.fillRect(px+(para?10:0),y,ww,7);px+=ww+12;
+      }
+    }
+    var sx=w*.72,l=x.createLinearGradient(sx-90,0,sx+90,0);
+    l.addColorStop(0,'rgba(184,151,90,0)');l.addColorStop(.5,'rgba(227,197,138,.35)');l.addColorStop(1,'rgba(184,151,90,0)');
+    x.fillStyle=l;x.fillRect(sx-90,0,180,h);
+  }else{
+    x.strokeStyle='rgba(247,243,234,.13)';x.lineWidth=1;
+    for(var i=0;i<w;i+=13){x.beginPath();x.moveTo(i,0);x.lineTo(i,h);x.stroke()}
+    for(var j=0;j<h;j+=13){x.beginPath();x.moveTo(0,j);x.lineTo(w,j);x.stroke()}
+    var cx=w*.74,cy=h*.5,rg=x.createRadialGradient(cx,cy,0,cx,cy,Math.min(w,h)*.55);
+    rg.addColorStop(0,'rgba(217,72,92,.8)');rg.addColorStop(.45,'rgba(122,31,43,.5)');rg.addColorStop(1,'rgba(122,31,43,0)');
+    x.fillStyle=rg;x.fillRect(0,0,w,h);
+    x.strokeStyle='rgba(227,197,138,.8)';x.lineWidth=2;x.beginPath();x.moveTo(cx-120,cy-60);x.bezierCurveTo(cx-40,cy-10,cx+30,cy+40,cx+110,cy+70);x.stroke();
+    x.lineWidth=1;x.beginPath();x.arc(cx,cy,Math.min(w,h)*.3,0,7);x.stroke();
+  }
+}
+document.querySelectorAll('.proj').forEach(function(p){
+  var cv=p.querySelector('canvas'),stg=p.querySelector('.stage'),head=p.querySelector('.head');
+  if(p.dataset.bg){stg.style.backgroundImage='url('+p.dataset.bg+')';cv.remove()}
+  function draw(){if(cv.isConnected)art(cv,p.dataset.art)}
+  function open(o){
+    p.classList.toggle('open',o);head.setAttribute('aria-expanded',o);
+    if(o)draw();
+  }
+  head.onclick=function(){open(!p.classList.contains('open'))};
+  if(p.classList.contains('open'))setTimeout(draw,50);
+  addEventListener('resize',function(){if(p.classList.contains('open'))draw()});
+});
+document.querySelectorAll('[data-demo]').forEach(function(el){el._pick(0)});
+</script>
+</body>
+</html>
